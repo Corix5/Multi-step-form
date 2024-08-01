@@ -1,0 +1,9 @@
+.sidebar-container{
+    background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18.5rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}

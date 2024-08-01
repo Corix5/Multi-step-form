@@ -1,0 +1,55 @@
+.summary-box {
+  background-color: #f8f9fe;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 70%;
+  font-family: "Ubuntu-Regular";
+}
+
+.plan-resume,
+.add-resume {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-resume p {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.change {
+  margin-top: 5px;
+}
+
+.change a {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.add-resume {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: 600;
+  color: black;
+}
+
+.total-resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  font-family: "Ubuntu-Regular";
+  padding: 1rem;
+  color: gray;
+}
+
+.final-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #483ffc;
+}

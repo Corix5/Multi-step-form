@@ -1,0 +1,48 @@
+.btn{
+    width: 120px;
+    padding: 0.9rem 0.8rem;
+    font-family: "Ubuntu-Medium";
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.next{
+    color: white;
+    background-color: #03295a;
+    position: absolute;
+    right: 11rem;
+    bottom: 1rem;
+}
+
+.next:hover{
+    background-color: #174a8b;
+    cursor: pointer;
+}
+
+.back{
+    color: gray;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.back:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.confirm{
+   background-color: #483ffc;
+   color: white;
+   position: absolute;
+   right: 11rem;
+   bottom: 1rem;
+}
+
+.confirm:hover{
+    background-color: #3e34fd;
+    cursor: pointer;
+}

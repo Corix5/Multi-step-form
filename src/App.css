@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../src/assets/fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("../src/assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url("../src/assets/fonts/Ubuntu-Regular.ttf");
+}
+
+.app-container{
+    width: 60%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+}

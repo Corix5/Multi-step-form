@@ -1,0 +1,30 @@
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-container label{
+    font-family: "Ubuntu-Regular";
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+}
+
+.input-container input{
+    font-family: "Ubuntu-Medium";
+    padding: 14px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 25px;
+}
+
+.error{
+    border-color: red !important; 
+}
+
+.error-span{
+    font-weight: 600;
+    color: red;
+}

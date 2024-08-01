@@ -1,0 +1,19 @@
+.circle{
+    display: flex;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Ubuntu-Medium";
+}
+
+.selected{
+    background-color: #bfe0ff;
+    color: black;
+    border: 1px solid #bfe0ff;
+}

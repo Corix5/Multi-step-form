@@ -1,0 +1,26 @@
+.step-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.step-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.step-number{
+    font-family: "Ubuntu-Regular";
+    font-size: 0.8rem;
+    color: white;
+    margin: 0;
+}
+
+.step-title{
+    font-family: "Ubuntu-Medium";
+    font-family: 1rem;
+    color: white;
+    margin: 0;
+}
